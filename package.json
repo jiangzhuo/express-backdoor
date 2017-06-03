@@ -1,0 +1,27 @@
+{
+  "name": "express-backdoor",
+  "version": "1.0.0",
+  "description": "open a web terminal on express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangzhuo/express-backdoor.git"
+  },
+  "keywords": [
+    "express",
+    "backdoor"
+  ],
+  "author": "jiangzhuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiangzhuo/express-backdoor/issues"
+  },
+  "homepage": "https://github.com/jiangzhuo/express-backdoor#readme",
+  "dependencies": {
+    "express-ws": "^3.0.0",
+    "node-pty": "^0.6.6"
+  }
+}
